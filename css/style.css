@@ -1,3 +1,73 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #004187;
+  font-size: 16px;
+  font-family: 'open sans', arial;
+  display: grid;
+}
+
+.container {
+  background-color: #f5f6f7;
+  margin-top: 55px;
+  border-radius: 10px 10px 0px 0px;
+  min-height: 100vh;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, .2);
+}
+
+.bus-filter, .service-updates, .arriving-times{
+  background-color: #fff;
+  padding-top: 30px;
+}
+
+/* heading font */
+h1, h2, h3 {
+  margin-left: 16px;
+}
+
+h1 {
+  font: 700 1.5em/150% 'Montserrat', helvetic;
+}
+
+h2 {
+  font: 700 1.125em/133% 'open sans', arial;
+  color: #000;
+}
+
+h3 {
+  font: 700 1em/125% 'open sans', arial;
+}
+
+h5 {
+  color: #595959;
+}
+
+/* grip bar */
+.grip {
+  background-color: #595959;
+  height: 4px;
+  width: 13.6%;
+  margin: 15px auto;
+  border-radius: 100px;
+}
+
+/* top classes */
+.description {
+  margin-top: 10px;
+  margin-bottom: 31px;
+}
+
+.bus-description {
+  font-weight: 400;
+}
+
+.direction-button {
+
+}
+
+/* bus filter section */
+.bus-filter-heading {
+  color: #595959;
+}

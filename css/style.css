@@ -20,15 +20,26 @@ body {
 .bus-filter, .service-updates, .arriving-times{
   background-color: #fff;
   padding-top: 30px;
+  width: 100%;
+}
+
+
+/* button */
+button {
+  color: #fff;
+  background-color: #1d3557;
+  border-radius: 80px;
+  height: 42px;
+  outline: none;
+  font: 400 1em/150% 'open sans', arial;
+  width: 80.84%;
 }
 
 /* heading font */
-h1, h2, h3 {
-  margin-left: 16px;
-}
 
 h1 {
   font: 700 1.5em/150% 'Montserrat', helvetic;
+  grid-column: 1/3;
 }
 
 h2 {
@@ -53,10 +64,19 @@ h5 {
   border-radius: 100px;
 }
 
-/* top classes */
+/* top section */
+.top-section {
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+  grid-auto-rows: minmax(42px, auto);
+  grid-row-gap: 9px;
+  grid-column-gap: 25px;
+  margin-left: 4.26666666667%;
+  padding-bottom: 30px;
+}
+
 .description {
-  margin-top: 10px;
-  margin-bottom: 31px;
+  margin-top: 0.59880239521%;
 }
 
 .bus-description {
@@ -64,10 +84,29 @@ h5 {
 }
 
 .direction-button {
-
+   background: #1d3557 url(../images/direction-arrow.png) no-repeat left center;
+   background-origin: content-box;
+   padding-right: 11%;
+   padding-left: 11%;
+   text-align: right;
 }
-
 /* bus filter section */
 .bus-filter-heading {
   color: #595959;
+}
+
+.bus-filter-button, .first-bus-button, .last-bus-button {
+  width: 16.2666666667%;
+  border-radius: 0px;
+  margin-top: 2.66666666667%;
+  margin-right: 2.66666666667%;
+}
+
+.last-bus-button {
+  margin-right: 0%;
+}
+
+.bus-filter-button:active, .first-bus-button:active, .last-bus-button:active {
+  background-color: #b6cede;
+  box-shadow: none;
 }

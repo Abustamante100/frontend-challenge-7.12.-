@@ -32,7 +32,7 @@ button {
   height: 42px;
   outline: none;
   font: 400 1em/125% 'open sans', arial;
-  width: 80.84%;
+  width: 135px;
 }
 
 button:active {
@@ -91,9 +91,21 @@ h5 {
   padding-bottom: 30px;
 }
 
+@media (min-width: 480px) {
+  .top-section {
+    display: inline-block;
+  }
+}
+
 .description {
-  margin-top: 0.59880239521%;
+  margin-top: 1px;
   padding-left: none;
+}
+
+@media (min-width: 480px) {
+  .description {
+    margin-top:5px;
+  }
 }
 
 .bus-description {
@@ -103,10 +115,19 @@ h5 {
 .direction-button {
    background: #1d3557 url(../images/direction-arrow.png) no-repeat left center;
    background-origin: content-box;
-   padding-right: 11%;
-   padding-left: 11%;
+   padding-right: 15px;
+   padding-left: 15px;
    text-align: right;
 }
+
+@media (min-width: 480px) {
+  .direction-button {
+    width: 200px;
+    padding-left: 46px;
+    padding-right:46px;
+  }
+}
+
 /* bus filter section */
 .bus-filter {
   display: grid;

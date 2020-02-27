@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
   border-radius: 10px 10px 0px 0px;
   box-shadow: 0px -2px 5px rgba(0, 0, 0, .2);
-  width: 100%
+  width: full-width;
 }
 
 .bus-filter, .service-updates, .arriving-times, .bus-frequency {
@@ -159,7 +159,7 @@ h5 {
   grid-template-columns: 16.0349854227% 38.775510204% 45.1895043732%;
   grid-auto-rows: minmax(56px, auto);
   border-bottom: #595959 1px solid;
-  background-image: url(../images/kebab.png);
+  background-image: url(../images/Kebab.png);
   background-repeat: no-repeat;
   background-position: right 16px top 16px;
   padding-left: 16px;
@@ -181,6 +181,6 @@ h5 {
 }
 
 .heading-su, .bf-heading {
-  background: #ffffff url(../images/polygon.png) no-repeat right top;
+  background: #ffffff url(../images/Polygon.png) no-repeat right top;
   background-origin: content-box;
 }
